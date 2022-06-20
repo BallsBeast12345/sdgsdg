@@ -1,0 +1,33 @@
+ local LocalPlayer = game:GetService("Players").LocalPlayer 
+local RootPart = LocalPlayer.Character.HumanoidRootPart 
+local cframe = RootPart.CFrame
+
+local Remote = game:GetService("ReplicatedStorage").Events.PlaceStructure 
+
+Remote:FireServer("Plant Box", cframe * CFrame.new(-20,  -3,  -8), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-20,  -3,  -16), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-20,  -3,  -24), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-20,  -3,  -32), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-20,  -3,  -40), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-4,  -3,  -40), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-12,  -3,  -40), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-4,  -3,  -24), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(-12,  -3,  -24), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(11,  -3,  -24), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(11,  -3,  -16), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(11,  -3,  -8), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(11,  -3,  -8), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(11,  -3,  0), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(19,  -3,  0), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(27,  -3,  0), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(27,  -3,  -8), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(27,  -3,  -16), 0)
+Remote:FireServer("Plant Box", cframe * CFrame.new(27,  -3,  -24), 0)
+
+
+
+
+
+
+
+
